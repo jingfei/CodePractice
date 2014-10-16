@@ -1,0 +1,19 @@
+ enter 'P' value:
+20
+ enter 'i' value:
+0.05
+ enter 'q' value:
+2
+ enter 'n' value:
+10
+           1 year:   21.0124989    
+           2 year:   22.0762558    
+           3 year:   23.1938648    
+           4 year:   24.3680534    
+           5 year:   25.6016846    
+           6 year:   26.8977699    
+           7 year:   28.2594681    
+           8 year:   29.6901016    
+           9 year:   31.1931610    
+          10 year:   32.7723160    
+

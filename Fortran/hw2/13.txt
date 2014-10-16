@@ -1,0 +1,4 @@
+ enter 'D' value:
+19940201
+  year: 1994   month:  2   day:  1
+

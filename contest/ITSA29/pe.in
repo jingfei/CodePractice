@@ -1,0 +1,11 @@
+38 
+Now after finding all the places you can
+break up a word, you need to put as many
+characters into a line as poshible, without
+breaking the column limit. Also inorder to
+use up all C columns, you need to add extra
+space before those words near the end of the
+line. For example, in the following example,
+we need to put three extra space chars in the
+second line, so we simply make the last three
+spacing two char in width.

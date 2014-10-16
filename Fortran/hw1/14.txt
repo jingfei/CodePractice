@@ -1,0 +1,8 @@
+ enter one value of the edge:
+5
+ enter the other:
+7
+ enter another:
+6
+ This is not a RIGHT TRIANGLE!!
+

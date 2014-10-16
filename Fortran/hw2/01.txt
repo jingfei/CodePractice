@@ -1,0 +1,8 @@
+ Enter A value:
+3
+ Enter B value:
+4
+ Enter C value:
+5
+ 直角三角形
+

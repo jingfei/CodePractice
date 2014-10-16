@@ -1,0 +1,5 @@
+ enter an integer with four digits
+1234
+ Before:        1234
+ After:         5227
+

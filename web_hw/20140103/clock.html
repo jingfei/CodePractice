@@ -1,0 +1,58 @@
+<html>
+<body>
+<h1>Canvas Demo</h1>
+<h1 id="Time"></h1>
+<canvas id="darea1" width="600" height="600"></canvas>
+<script>
+setInterval(function(){
+a();
+ }, 500);
+
+function a(){
+var canvas= document.getElementById("darea1");
+var cx= canvas.getContext("2d");
+var centerX= centerY= 150;
+  canvas.width= canvas.width;  //²M°£canvas
+  cx.beginPath();
+  cx.arc(centerX, centerY, 100, 0, 2*Math.PI, true);
+  cx.translate(centerX,centerY);
+
+  for (d=-2; d<= 9; d++){
+    cx.fillText(d+3, 85*Math.cos(d*30*Math.PI/180), 85*Math.sin(d*30*Math.PI/180));
+}
+
+  var seconds= new Date().getSeconds();
+  var angle= 360/60* seconds*Math.PI/180;
+  var minutes= new Date().getMinutes();
+  var hours= new Date().getHours();
+  var angle2= 360/60* minutes*Math.PI/180;
+  var angle3= 360/12* hours*Math.PI/180;
+//  cx.lineWidth=5;
+  cx.save();
+  cx.rotate(angle3);
+  cx.moveTo(0, 0);
+  cx.lineTo(0, -40);
+  cx.restore();
+  cx.save();
+  cx.rotate(angle2);
+  cx.moveTo(0, 0);
+  cx.lineTo(0,-60);
+  cx.restore();
+  cx.save();
+  cx.rotate(angle);
+  cx.moveTo(0, 0);
+  cx.lineTo(0, -80);
+  cx.restore();
+  cx.stroke();
+  //time
+  var tmp=document.getElementById("Time");
+  var T;
+  if(seconds<10)
+  	T=hours+':'+minutes+':0'+seconds;
+  else T=hours+':'+minutes+':'+seconds;
+  tmp.innerHTML=T;
+}
+
+</script>
+</body>
+</html>

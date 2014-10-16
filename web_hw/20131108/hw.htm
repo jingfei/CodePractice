@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Random</title>
+		<script language="javascript">
+			var num=prompt("number:","");
+			var size=prompt("array size(3~5):","");
+//			var name=new Array("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+			var c=new Array("A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
+//			var names=new Array("Ab","Bc","Cd","De","Ef","Fg","Gh","Hi","Ij","Jk","Kl","Lm","Mn","No","Op","Pq","Qr","Rs","St","Tu","Uv","Vw","Wx","Xy","Yz","Za");
+			var visit=Array(25);
+			function Rand(){
+//				for(i=0; i<26; i++) document.write(i+" "+name[i]+"<br/>");
+				document.open();
+				for(j=1; j<=num; j++){
+					document.write("<table border=2 width=100 height=100>");
+					for(i=0; i<size*size; i++){
+						var x=Math.round(Math.random()*25);
+						while(visit[x]) x=Math.round(Math.random()*25);
+//						document.write(x+" "+name[x]+"<br/>");
+						visit[x]=true;
+						if(i%size==0) document.write("<tr>");
+						document.write("<td>"+c[x]+"</td>");
+						if((i+1)%size==0) document.write("</tr>");
+					}
+					document.write("</table><br/>");
+					for(i=0; i<size*size; i++) visit[i]=false;
+				}
+				document.close();
+			}
+			Rand();
+		</script>
+	</head>
+
+	<body>
+	</body>
+
+</html>

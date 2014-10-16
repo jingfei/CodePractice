@@ -1,0 +1,9 @@
+ enter 'A' value
+3
+ enter 'B' value
+4
+ enter 'C' value
+5
+ ANS:   T R:      5.00000000    
+ ERROR: F ANGA:   36.8698997     ANGB:   53.1301041     ANGC:   90.0000076    
+

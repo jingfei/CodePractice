@@ -1,0 +1,11 @@
+	PROGRAM P5
+
+	REAL KG
+	INTEGER X
+	PARAMETER (KG=0.453592)
+
+	DO 99 X=100,200,5
+		WRITE (*,*) X, 'pound   =', X*KG, 'kg'
+99	CONTINUE
+
+	END

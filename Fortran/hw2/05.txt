@@ -1,0 +1,4 @@
+ Please enter n value
+60
+    60     =     2   ^  2     *     3     *     5  
+

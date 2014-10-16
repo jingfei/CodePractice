@@ -1,0 +1,8 @@
+ Enter I value:
+8
+ Enter J value:
+3
+ I-I/J*J  =           2
+ MOD(I,J) =           2
+ They are equal.
+

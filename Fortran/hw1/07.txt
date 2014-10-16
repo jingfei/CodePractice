@@ -1,0 +1,8 @@
+ Please enter 'a' value: 
+5
+ Please enter 'b' value: 
+6
+ Please enter 'c' value: 
+7
+ AREA   =   14.6969385    
+

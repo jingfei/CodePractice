@@ -1,0 +1,8 @@
+ enter 'L' value:
+50
+ enter 'alpha' value:
+30
+ enter 'beta' value:
+40
+ Height:   17.1010056    
+

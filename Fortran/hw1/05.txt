@@ -1,0 +1,22 @@
+         100 pound   =   45.3591995     kg
+         105 pound   =   47.6271591     kg
+         110 pound   =   49.8951187     kg
+         115 pound   =   52.1630821     kg
+         120 pound   =   54.4310417     kg
+         125 pound   =   56.6990013     kg
+         130 pound   =   58.9669609     kg
+         135 pound   =   61.2349205     kg
+         140 pound   =   63.5028801     kg
+         145 pound   =   65.7708435     kg
+         150 pound   =   68.0388031     kg
+         155 pound   =   70.3067627     kg
+         160 pound   =   72.5747223     kg
+         165 pound   =   74.8426819     kg
+         170 pound   =   77.1106415     kg
+         175 pound   =   79.3786011     kg
+         180 pound   =   81.6465607     kg
+         185 pound   =   83.9145203     kg
+         190 pound   =   86.1824799     kg
+         195 pound   =   88.4504395     kg
+         200 pound   =   90.7183990     kg
+

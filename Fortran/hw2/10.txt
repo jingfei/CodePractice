@@ -1,0 +1,24 @@
+ angle:           0    on the line, no quant
+ angle:          15    quant:           1
+ angle:          30    quant:           1
+ angle:          45    quant:           1
+ angle:          60    quant:           1
+ angle:          75    quant:           1
+ angle:          90    on the line, no quant
+ angle:         105    quant:           2
+ angle:         120    quant:           2
+ angle:         135    quant:           2
+ angle:         150    quant:           2
+ angle:         165    quant:           2
+ angle:         180    on the line, no quant
+ angle:         195    quant:           3
+ angle:         210    quant:           3
+ angle:         225    quant:           3
+ angle:         240    quant:           3
+ angle:         255    quant:           3
+ angle:         270    on the line, no quant
+ angle:         285    quant:           4
+ angle:         300    quant:           4
+ angle:         315    quant:           4
+ angle:         330    quant:           4
+ angle:         345    quant:           4

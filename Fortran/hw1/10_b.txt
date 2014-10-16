@@ -1,0 +1,17 @@
+ enter 'a' value:
+1
+ enter 'b' value:
+2
+ enter 'c' value:
+3
+ enter 'd' value:
+4
+ enter 'e' value:
+5
+ enter 'f' value:
+6
+ Solution of
+   1.00000000     x +   2.00000000     y =   3.00000000    
+   4.00000000     x +   5.00000000     y =   6.00000000    
+ (x,y) is (  -1.00000000     ,   2.00000000     )
+

@@ -1,0 +1,9 @@
+ enter 'a' value:
+50
+ enter 'd' value:
+3
+ enter 'n' value:
+20
+ 第          20 項    ：   107.000000    
+ 前          20 項總合：   1570.00000    
+

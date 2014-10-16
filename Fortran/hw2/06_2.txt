@@ -1,0 +1,3 @@
+ Enter 9 numbers for DETERM: 
+1 2 3 4 5 6 7  8 9
+ DETERM    0.00000000

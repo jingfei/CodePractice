@@ -1,0 +1,14 @@
+我的程式結構如下
+
+兩個subroutine:
+	1. trim 讀入一個字串，將字串中空白的部份去除，再回傳新的字串
+	2. GetMovie 讀入電影網站的link(url)，
+				將他的source code下載下來之後，
+				利用regular expression得要需要的資料後輸出，
+				輸出格式為：'\t'+電影名稱(特殊版本)
+							'\t'+時間
+				如果有兩個電影名稱+版本一樣，會整合為一個
+
+最後主要的程式為三個電影網站的url，
+輸出影城名稱後call GetMovie(url) function
+

@@ -1,0 +1,12 @@
+ enter integer 'n' value:
+100
+ Euler: -0.582207739    
+
+ enter integer 'n' value:
+1000
+ Euler: -0.577723145    
+
+ enter integer 'n' value:
+10000
+ Euler: -0.577272534    
+

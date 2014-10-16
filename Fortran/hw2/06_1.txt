@@ -1,0 +1,9 @@
+ enter 'a' value:
+1
+ enter 'b' value:
+10
+ enter 'c' value:
+6
+ first  root: -0.641101062    
+ second root:  -9.35889912    
+

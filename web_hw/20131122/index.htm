@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>play/pause</title>
+		<script>
+			var Timer;
+			function NextImg(){
+				Img=document.getElementById('Image');
+				var Num=Number(Img.name)+1;
+				if(Num>15) Num=1;
+				Img.name=Num.toString();
+				Img.src="funny/"+Img.name+".jpg";
+			}
+			function Show(obj){
+				if(obj.innerHTML=="play"){
+				   	obj.innerHTML="pause";	
+					Timer=setInterval(function(){NextImg()},1000);
+				}
+				else{
+					obj.innerHTML="play";
+					clearInterval(Timer);
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<button type="button" onClick="Show(this)">play</button>
+		<br/>
+		<img id="Image" src="funny/1.jpg" name="1" style="width: 400px; height:300px;"/>
+	</body>
+</html>

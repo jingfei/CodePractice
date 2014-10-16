@@ -1,0 +1,10 @@
+ enter 'a' value:
+10
+ enter 'b' value:
+20
+ enter 'c' value:
+30
+ enter 'd' value:
+40
+ distance:   28.2842712    
+

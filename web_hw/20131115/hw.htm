@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<script language="javascript">
+			var Title=["","Month?","date?","when?","time?"];
+			var a1=["2013","November","16","am","5:00"];
+			var a2=["2012","October","15","pm","6:00"];
+			var ID=0;
+			function ShowAns(num){
+				objQ=document.getElementById("Que");
+				objA=document.getElementById("Ans");
+				objB=document.getElementById("Button");
+				obj1=document.getElementById("n1");
+				obj2=document.getElementById("n2");
+				if(num==1) objA.innerHTML=objA.innerHTML+ " " +a1[ID];
+				else objA.innerHTML=objA.innerHTML+" "+a2[ID];
+				ID++;
+				if(ID>4){
+					objB.innerHTML="";
+					objQ.innerHTML="<h1>Now:<span style='color:blue'>"+objA.innerHTML+"</span></h1>";
+					objA.innerHTML="";
+				}
+				else{
+					objQ.innerHTML="<h1>" +Title[ID]+"</h1>";
+					obj1.value=a1[ID];
+					obj2.value=a2[ID];
+				}
+			}
+		</script>
+	</head>
+	<body>
+	<div id="Que"><h1>What year is this year?</h1></div>
+	<div id="Button">
+	<input type="button" value="2013" style="width:100" id="n1" onClick="ShowAns(1);">
+	<input type="button" value="2012" style="width:100" id="n2" onClick="ShowAns(2);">
+	</div>
+	<h2><div id="Ans" style="color:green"></div></h2>
+	</body>
+</html>
