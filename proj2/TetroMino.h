@@ -16,8 +16,8 @@ class TetroMino{
 		int Y,X,ROOM;
 	protected:
 		TetroMino(int,int,int,int,IO &,int);
-		bool Check(int n,int Shape,int my,int mx);
-		bool End;
+//		bool Check(int n,int Shape,int my,int mx);
+//		bool End;
 	private:
 		void setStyle(int,int,int,int);
 		IO &io;
